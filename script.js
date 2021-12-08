@@ -1,5 +1,5 @@
 // This is what I came up with in my stubbornness to "simplify" the comparison of choices.
-// Mind you, I don't think this was that good of an idea. Took me about 3 times longer to figure out.
+// Mind you, I don't think this was that good of an idea. Took me about 3 times longer to figure out. And it looks looks messy.
 // I don't have that much experience but I programed this in python the usual way a while ago and wanted to do something different.
 
 function computerPlay(){ // Computer's selection
