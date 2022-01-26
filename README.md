@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors</title>
+  <meta charset="UTF-8"/>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scoreboard">
+        <h1 id="score"></h1>
+        <h3 id="score-message"></h3>
+        <h3 id="results"></h3>
+    </div>
+    <div class="reset">
+        <button class="resetButton"><h3>Reset game</h3></button>
+    </div>
+    <div class="choices-area">
+        <button class="choices" id="rock"><img src="icons/rock.png" /></button>
+        <button class="choices" id="paper"><img src="icons/paper.png" /></button>
+        <button class="choices" id="scissors"><img src="icons/scissors.png" /></button>
+    </div>
+</body>
+<footer>
+    <a href="https://github.com/TerraPlayer1">Made with mild annoyance by: <b>TerraPlayer1</b>.</a>
+    <h6>I should probably learn more html and css.</h6>
+</footer>
+</html>
