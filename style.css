@@ -1,16 +1,26 @@
 html, body {
     width: 100%;
     height: 100%;
-    background-color: #99f;
+}
+html {
+    background: url(icons/background.jpeg);
+    background-size: cover;
+    height: auto;
+    position: relative;
+    min-height: 100%;
 }
 
-#buttons {
+body {
+    margin: 0 0 100px;
+    padding: 25px;
+}
+div.choices-area {
+    margin-top: 50px;
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #9f9;
+    align-items: flex-end;
 
 }
 button {
@@ -18,7 +28,57 @@ button {
     margin-right: 10px;
 }   
 
+
+button#scissors {
+    max-width: 130px;
+    height: 110px;
+}
+.reset {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 img {
     max-width: 100%;
     height: 100px;
 }
+
+#score, #score-message, #results{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:23px;
+}
+
+#score {
+    font-size: 50px;
+}
+
+a {
+    text-decoration:none !important;
+    color:black;
+}
+
+h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    color:black;
+};
+
+
+
