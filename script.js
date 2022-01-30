@@ -9,6 +9,7 @@ score.textContent = "0 : 0"
 scoreMessage.textContent = "First to 5 wins. Good luck!"
 results.textContent = ""
 
+resetButton.style.visibility = "hidden";
 
 choices.forEach((button) =>{
     button.addEventListener("click", () => {
@@ -93,6 +94,8 @@ function scoreboard() {
 };
 
 function resetGame() {
+    resetButton.style.visibility = "visible";
+
     resetButton.addEventListener('click', () => {
       window.location.reload();
     });
